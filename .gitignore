@@ -2,6 +2,9 @@
 var/
 modules/private
 .yas-compiled-snippets.el
+places
+recentf
+org-clock-save.el
 
 # folders created by Cask
 .cask/
@@ -36,3 +39,4 @@ server/
 *.cache-*
 *.log
 .directory
+transient/

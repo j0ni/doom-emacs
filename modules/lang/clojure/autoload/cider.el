@@ -1,4 +1,5 @@
-;;; lang/clojure/autoload.el -*- lexical-binding: t; -*-
+;;; lang/clojure/autoload/cider.el -*- lexical-binding: t; -*-
+;;;###if (not (featurep! +inf-clojure))
 
 ;;;###autoload
 (defun +clojure-cider-lookup-definition (identifier)
